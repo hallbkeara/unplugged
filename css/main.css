@@ -492,7 +492,49 @@ textarea {
 }
 
 @media only screen and (min-width: 1200px) {
-  /*Desktop*/
+  /*Desktop - homepage*/
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* aside - hero */
+  .hero-area h1 {
+    width: 60%;
+  }
+
+  /* aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description, aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* features */
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /* reviews */
+  .reviews article div {
+    width: 42%;
+  }
+
+  /*Desktop - about*/
+  .mission h2, 
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
+
+  /*Desktop - faq*/
+  .faq h2 {
+    width: 100%;
+  }
 }
 
 /* ==========================================================================

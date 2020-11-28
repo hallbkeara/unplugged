@@ -280,16 +280,12 @@ textarea {
     align-items: center; 
     flex-flow: row wrap; 
     background: #527158;
-    padding-bottom: 50px;
    }
 
    aside .content-wrapper {
-     margin: 0;
+     margin: 50px 0;
    }
 
-   aside .form {
-    margin-top: 30px;
-  }
    
   input[type=text] {
     box-sizing: border-box;
@@ -605,7 +601,7 @@ textarea {
   }
 
   aside .content-wrapper .form-description, aside .content-wrapper .form {
-    width: 50%;
+    width: 40%;
   }
 
   /* features */
@@ -766,12 +762,11 @@ textarea {
 
   /* aside */
   aside .content-wrapper {
-    margin: 0;
     justify-content: space-around; 
   }
 
   aside .content-wrapper .form-description, aside .content-wrapper .form {
-    width: 50%;
+    width: 30%;
   }
 
   .form-description p {
